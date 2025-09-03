@@ -2,15 +2,15 @@ package logica;
 
 public abstract class Genero {
 	//atributos 
-	private double peso;
-	private double altura;
-	private int edad;
-	private String genero;
+	protected double peso;
+	protected double altura;
+	protected int edad;
+	protected String genero;
 	
 	
 	public Genero (double peso, double altura, int edad, String genero) {
-		this.altura = altura ;
-		this.peso = peso;
+		this.peso= peso ;
+		this.altura = altura;
 		this.edad = edad; 
 		this.genero = genero;
 	}
@@ -51,6 +51,21 @@ public abstract class Genero {
 	//los calculeeeee; 
 	public abstract double calcularTMB();
 	public abstract boolean cumpleCondiciones();
+
+	public double calcularIMC() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public String obtenerGenero() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public  String getNombre(String nombre) {
+		  
+		return this.nombre
+	}
 
 	
 }

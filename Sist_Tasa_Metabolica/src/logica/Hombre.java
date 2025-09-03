@@ -4,8 +4,8 @@ public class Hombre extends Genero {
 	//atributos especificos 
 		//no tiene (aun) 
 
-    public Hombre(String nombre, double peso, double altura, int edad) {
-        super(nombre, peso, altura, edad);
+    public Hombre( double peso, double altura, int edad, String genero) {
+        super( peso, altura, edad, genero);
     }
     
     
